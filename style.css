@@ -1,0 +1,195 @@
+body{
+    margin:0px;
+    font-family:arial;
+  }
+  .fixed-width{
+    width:1000px;
+    margin: 0 auto;
+  }
+  #bold{
+    font-weight:bold;
+    font-size:1.3em;
+  }
+  .top-bar{
+    width:100%;
+    height:40px;
+    background-color:white;
+    color:black;
+    
+  }
+  .news-bar{
+    width:100%;
+    height:60px;
+    background-color:darkred;
+    color:white;
+  }
+  .news-bar p{
+    padding:5px 0px 0px 0px;
+    margin:0px;
+    font-size:2.5em;
+    font-family:arial, vardana;
+    position:relative;
+    right:2px;
+  }
+  .category-bar{
+    width:100%;
+    height:30px;
+    background-color:red;
+    color:white;
+  }
+  .category-bar ul{
+     margin:0px;
+    padding:0px;
+  }
+  .category-bar ul li{
+    float:left;
+    list-style:none;
+    font-family:arial;
+    font-size:0.9em;
+    border-right:1px solid darkred;
+    padding:5px 20px 7px 10px;
+    position:relative;
+    right:17px;
+  }
+  .location-bar{
+    width:100%;
+    height:40px;
+    background-color:white;
+    color:black
+  }
+  .location-bar ul{
+     list-style:none;
+     margin:0px;
+    padding:0px;
+  }
+  .location-bar ul li{
+    float:left;
+    font-family:arial;
+    font-size:0.9em;
+    position:relative;
+    right:17px ;
+    border-right:1px solid #B4B4B4;
+    padding:10px 12px 12px 12px;
+  }
+  .content{
+  /*   display: flex; */
+    width:100%;
+    color:#000000
+  }
+  h1{
+    color:#716c65;
+  }
+  .content img{
+    float:right;
+    width:300px;
+    height:145px;
+  /*   align-items:flex-start; */
+    position:relative;
+    right:385px;
+    bottom:300px; 
+  }
+  .content p{
+    width:250px;
+  }
+  .releated-content ul{
+  /*   padding-top:50px; */
+    width:250px;
+  }
+  #logo{
+    width: 84px;
+    height: 24px;
+    float:left;
+    border-right:2px solid #B4B4B4;
+    padding-right:10px;
+    padding-top:7px;
+    padding-bottom:7px;
+  }
+  #sign-in{
+    float:left;
+    margin-top:auto;
+     font-weight:bold;
+    font-size:1.1em;
+    border-right:1px solid #B4B4B4;
+    padding:4px;
+  /*   background-color:grey; */
+  /*   justify-content: center; */
+    height: 76%;
+  }
+  #sign-in .img{
+    background-image: url(https://static.files.bbci.co.uk/account/id-cta/1.54.22-wp/style/img/idcta-icon-sprite.svg);
+      width: 1000px;
+      height: 1000px;
+  /*   background: black; */
+  /*   clip: rect(5px,5px,5px, 5px) */
+  }
+  
+  #sign-in i{
+    color: white;
+    overflow:hidden
+  }
+  .top-bar ul{
+    margin:0;
+    padding:0;
+  }
+  .top-bar li{
+    list-style:none;
+    float:left;
+    font-weight:bold;
+    font-size:1em;
+    border-right:1px solid #B4B4B4;
+    padding:10px
+    
+  }
+  #search-box{
+    float:left;
+     border: 1px solid grey;
+  /*   border-radius:30px; */
+    padding:5px;
+    margin-top: 3px;
+    margin-left:15px;
+  }
+  
+  #search-box input{
+    border: none;
+  }
+  #search-box input:focus {
+    outline: none;
+  }
+  .watch-listen{
+    float:right;
+    position:relative;
+    bottom:325px;
+    left:120px;
+    border-left:1px solid #B4B4B4;
+    padding-left:10px
+  }
+  .watch-listen p{
+    background-color:red;
+    width:54px;
+    color:white;
+    padding:3px;
+    margin-left:9px
+  }
+  .watch-listen h2{
+    margin: 7px;
+    font-family:Arial;
+    font-weight:100;
+    
+  }
+  .bbc{
+    float:right;
+    position:relative;
+    bottom:270px;
+    left:330px;
+  }
+  .releated-content a{
+    color: black;
+    text-decoration: none;
+  }
+  .releated-content a:hover{
+    color: #1167AB;
+    text-decoration: underline;
+  }
+  .releated-content li{
+    margin-bottom: 5px;
+  } 
